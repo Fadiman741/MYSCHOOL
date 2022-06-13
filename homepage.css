@@ -1,0 +1,66 @@
+/*.Home-page{
+           width:40%;
+            background-color: orange;
+float: left;
+           height:100vh;
+}
+.home-content{
+            width:60%;
+          background-color: #ddd; 
+float: right;
+height: 100vh;
+margin: 0;
+}*/
+.Home-page h1{
+            position: absolute;
+            margin-top:150px;
+            font-size:100px;
+            margin-left: 4%;
+              color: #ddd;
+}
+.Home-page h2{
+            position: absolute;
+            margin-top: 350px;
+            font-size: 90px;
+            margin-left: 4%;
+              color: #ddd;
+}
+.Home-page h3 {
+  position: absolute;
+  margin-top: 450px;
+  font-size: 90px;
+  margin-left: 4%;
+}
+.Home-page p {
+            position: absolute;
+            margin-top: 580px;
+            margin-left: 4%;
+            width:35%;
+            color: #ddd;
+            border: 1px 1px 1px 10px orange;
+}
+.home-content .content-image img{
+            height:100vh;
+            width: 100vw;         
+            width: 100vw;         
+}
+.signup-buttons button {
+  position: absolute;
+display: inline-block;
+    margin-top: 700px;
+    margin-left: 4%;
+    border: 2px solid orange;
+
+background-color: #ffffff;
+  /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+}
