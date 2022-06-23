@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+     <head>
+          <meta charset="utf-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <title>Comments</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" type="text/css" media="screen" href="comments.css" />
+          <script src="comments.js"></script>
+     </head>
+
+     <body>
+          <div class="navbar">
+               <a href="index.html">MySchool</a>
+               <div class="dropdown">
+                    <button class="dropbtn" onclick="document.getElementById('id02').style.display='block'"
+                         style="width:auto; ">Profile
+                    </button>
+               </div>
+               <div class="dropdown">
+                    <button class="dropbtn">Grade 7
+                         <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                         <a href="papers.html">Mathematics</a>
+                         <a href="papers.html">Natural Sciences</a>
+                         <a href="papers.html">Social Sciences</a>
+                         <a href="papers.html">Life Orientation</a>
+                         <a href="papers.html">EMS</a>
+                         <a href="papers.html">Technology</a>
+                         <a href="papers.html">Creative Arts</a>
+                    </div>
+               </div>
+          </div>
+          <div class="tab">
+               <div id="2022" class="grid-container">
+                    <div class="grid-item">
+                         <h1>Subject</h1>1
+                         <p>Province:Limpopo</p>
+                         <p> Time of exam</p>
+                         <p>paper : 01</p>
+                         <button>Download</button>
+                    </div>
+               </div>
+          </div>
+          <div style="width: 100%">
+               <h1>Comments</h1>
+               <div style="display:flex;margin-bottom:10px;">
+                    <div>
+                         <input type="text" placeholder="Name" id="name" class="name-handle" />
+                    </div>
+                    <div>
+                         <input type="text" placeholder="handle" id="handle" class="name-handle" />
+                    </div>
+               </div>
+               <div>
+                    <textarea rows="5" id="comment" class="comment-box"
+                         placeholder="Join the discussion...."></textarea>
+                    <div>
+                         <button id="add-comment" class="add-btn">Add</button>
+                    </div>
+               </div>
+               <h3>Comments</h3>
+               <ul id="commentsList">
+               </ul>
+          </div>
+     </body>
+
+</html>

@@ -1,57 +1,57 @@
 body {
-            background: rgb(255, 255, 255) ;
+     background: rgb(255, 255, 255);
 
 }
 
 /*------------------------------------------------------*/
 * {
-            box-sizing: border-box
+     box-sizing: border-box
 }
 
 /* Style the tab */
 .tab {
-            float: left;
-            margin:0;
-            background-color: #f1f1f1;
-            width: 30%;
-            height: 95vh;
+     float: left;
+     margin: 0;
+     background-color: #f1f1f1;
+     width: 30%;
+     height: 95vh;
 }
 
 /* Style the buttons inside the tab */
 .tab button {
-            display: block;
+     display: block;
 
-            color: black;
-            padding: 22px ;
-            width: 100%;
-            border: none;
-            outline: none;
-            text-align: left;
-            cursor: pointer;
-            transition: 0.3s;
-            font-size: 17px;
+     color: black;
+     padding: 22px;
+     width: 100%;
+     border: none;
+     outline: none;
+     text-align: left;
+     cursor: pointer;
+     transition: 0.3s;
+     font-size: 17px;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-            background-color: orange;
-          color: white;
+     background-color: orange;
+     color: white;
 }
 
 /* Create an active/current "tab button" class */
 .tab button.active {
-            background-color: orange;
-          color: white;
+     background-color: orange;
+     color: white;
 }
 
 /* Style the tab content */
 .tabcontent {
-            float: left;
-            padding: 0px 12px;
-            border: 1px solid #ccc;
-            width: 70%;
-            height:95vh;
-            border-left: none;
+     float: left;
+     padding: 0px 12px;
+     border: 1px solid #ccc;
+     width: 70%;
+     height: 95vh;
+     border-left: none;
 
 }
 
@@ -78,6 +78,7 @@ body {
 .dropdown {
      float: right;
      overflow: hidden;
+     color: black;
 }
 
 .dropdown .dropbtn {

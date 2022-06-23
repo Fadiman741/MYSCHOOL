@@ -23,11 +23,10 @@
 
 
 .signup button {
-            background-color: #04AA6D;
+            background-color: orange;
             color: white;
             padding: 14px 20px;
             margin: 8px 0;
-            border: none;
             cursor: pointer;
             width: 100%;
             opacity: 0.9;
@@ -45,7 +44,8 @@
 .signup .cancelbtn,
 .signup .signupbtn {
             float: left;
-            width: 50%;
+            width: 40%;
+            margin:5%;
 }
 
 .signup .container {
@@ -54,27 +54,23 @@
 
 .signup {
             display: none;
-
             position: fixed;
-
             z-index: 1;
-
             left: 0;
             top: 0;
             width: 100%;
-
             height: 100%;
-
             overflow: auto;
-
             padding-top: 50px;
 }
 
 .signup .signup-content {
-            background-color: #fdfdfd;
-            margin: 5% auto 15% auto;
-            border: none;
-            width: 30%;
+          background-color: black;
+               margin-top: 7%;
+               margin-left: 70%;
+               border: 2px solid orange;
+               width: 20%;
+               opacity: 0.7;
 }
 
 .signup hr {

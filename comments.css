@@ -1,0 +1,81 @@
+ul {
+     list-style-type: none;
+}
+
+.comment-box {
+     width: 500px;
+     height: 50px;
+     font-size: 15px;
+}
+
+.add-btn {
+     width: 80px;
+     font-size: 15px;
+     background-color: #5b0de6;
+     color: white;
+}
+
+.comment-handle {
+     color: blue;
+     margin-top: 10px;
+     text-decoration: underline;
+}
+
+.name-handle {
+     width: 200px;
+     height: 30px;
+     font-size: 15px;
+}
+
+.comment-box .hr {
+     color: rgba(0, 0, 0, 0.15);
+     width: 100%;
+}
+
+.comment-header {
+     display: flex;
+     width: 50%;
+     justify-content: space-between;
+}
+
+.comment-input-row {
+     display: flex;
+     margin-top: 20px;
+     margin-bottom: 10px;
+}
+
+/*---------------------------------------------------------------------------*/
+.tab {
+     float: left;
+     margin: 0;
+     background-color: #f1f1f1;
+     width: 30%;
+     height: 95vh;
+}
+
+.tab .grid-item {
+     background-color: orange;
+     margin: 4%;
+     font-family: Arial, Helvetica, sans-serif;
+     float: left;
+     height: 300px;
+     width: 80%;
+     padding: 30px;
+
+}
+
+.tab .grid-item button {
+     background-color: rgb(242, 245, 247);
+     border: none;
+     color: black;
+     padding: 12px 20px;
+     cursor: pointer;
+     font-size: 16px;
+     width: 120px;
+     height: 40px;
+}
+
+.tab .grid-item button:hover {
+     background-color: rgb(53, 52, 52);
+     color: white;
+}
